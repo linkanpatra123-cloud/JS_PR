@@ -1,6 +1,6 @@
-const prevBtn = document.querySelector("#prev-btn");
-const nextBtn = document.querySelector("#next-btn");
-let images = document.querySelector("#img");
+const prevBtn = document.getElementById("prev-btn");
+const nextBtn = document.getElementById("next-btn");
+let images = document.getElementById("img");
 
 let index = 0;
 
@@ -42,7 +42,7 @@ prevBtn.addEventListener("click", function (e) {
         index--;
     }
 
-    displayImage(index);
+    showImage(index);
 });
 
 nextBtn.addEventListener("click", function (e) {
@@ -53,11 +53,11 @@ nextBtn.addEventListener("click", function (e) {
         index++;
     }
 
-    displayImage(index);
+    showImage(index);
 });
 
-function displayImage(i){
+function showImage(i){
     images.src = allImages[i].path;
 }
 
-displayImage(index);
+showImage(index);
