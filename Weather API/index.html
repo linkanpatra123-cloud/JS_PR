@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Weather App</h1>
+    <!-- Weather Card -->
+    <div class="weather-card">
+
+        <!-- Search Section -->
+        <div class="search">
+            <input type="text" placeholder="  Enter City Name" id="searchInp">
+            <button id="btnSearch">Get Weather</button>
+        </div>
+
+        <!-- Header -->
+        <div class="card-header">
+            <h2 id="cityName">SURAT</h2>
+            <span class="date" id="currentDate">Monday, 5 March</span>
+        </div>
+
+        <!-- Weather Icon -->
+         <div class="weather-icon" id="weatherIcon">🌤️</div>
+
+        <!-- Temperature -->
+        <div class="temperature">26°</div>
+        <div class="condition">Clear Sky</div>
+
+        <!-- Weather Details -->
+        <div class="details">
+            <div class="detail-box">
+                💧 Humidity <br>
+                <strong id="Humidity">65%</strong>
+            </div>
+            <div class="detail-box">
+                🌬 Wind <br>
+                <strong><span id="wind">14</span> km/h</strong>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="scipt.js"></script>
+</body>
+
+</html>
