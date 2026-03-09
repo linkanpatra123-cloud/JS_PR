@@ -25,21 +25,21 @@ h1{
     WEATHER BACKGROUNDS
 ================================ */
 body.sunny {
-   background-image:url(image/sunset.png), url(image/cloud.png), linear-gradient(180deg, #5794e3, #729cd4, #b1cbe2) !important;
+  /* background-image:url(image/sunset.png), url(image/cloud.png), linear-gradient(180deg, #5794e3, #729cd4, #b1cbe2) !important;
    background-repeat: no-repeat, no-repeat;
     background-position: right top, center;
-    background-size: 400px,1500px, cover;
-   /*background: url(image/sky.png);
+    background-size: 400px,1500px, cover;*/
+   background: url(image/sky.png);
    background-repeat: no-repeat;
-   background-size: cover;*/
+   background-size: cover;
 }
 
 body.cloudy {
-    background:url(image/darkCloud.png), linear-gradient(180deg, #607D8B,#7fa2b4, #d7dde0) !important;
-    animation: cloudMove 20s linear infinite;
-   /* background: url(image/cloudSky.jpg);
+   /* background:url(image/darkCloud.png), linear-gradient(180deg, #607D8B,#7fa2b4, #d7dde0) !important;
+    animation: cloudMove 20s linear infinite;*/
+   background: url(image/cloudSky.jpg);
    background-repeat: no-repeat;
-   background-size: cover;*/
+   background-size: cover;
 }
 
 body.thunder {
